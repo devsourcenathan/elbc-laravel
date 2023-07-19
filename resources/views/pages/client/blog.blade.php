@@ -18,7 +18,7 @@
             <div class="col-lg-8">
                 <!-- Featured blog post-->
                 <div class="card mb-4">
-                    <a href="#!"><img class="card-img-top" src="../img/blog/WhatsApp Image 2023-01-02 at 17.58.26.jpeg" height="500" alt="..." /></a>
+                    <a href="#!"><img class="card-img-top" src="{{asset("assets/img/blog/WhatsApp Image 2023-01-02 at 17.58.26.jpeg")}}" height="500" alt="..." /></a>
                     <div class="card-body">
                         <div class="small text-muted">January 1, 2022</div>
                         <h2 class="card-title">Featured Post Title</h2>
@@ -31,7 +31,7 @@
                     <div class="col-lg-6">
                         <!-- Blog post-->
                         <div class="card mb-4">
-                            <a href="#!"><img class="card-img-top" src="../img/blog/WhatsApp Image 2023-01-02 at 17.58.265.jpeg" height="300" alt="..." /></a>
+                            <a href="#!"><img class="card-img-top" src="{{asset("assets/img/blog/WhatsApp Image 2023-01-02 at 17.58.265.jpeg")}}" height="300" alt="..." /></a>
                             <div class="card-body">
                                 <div class="small text-muted">January 1, 2022</div>
                                 <h2 class="card-title h4">Post Title</h2>
@@ -41,7 +41,7 @@
                         </div>
                         <!-- Blog post-->
                         <div class="card mb-4">
-                            <a href="#!"><img class="card-img-top" src="../img/blog/WhatsApp Image 2023-01-02 at 17.58.27.jpeg" height="300" alt="..." /></a>
+                            <a href="#!"><img class="card-img-top" src="{{asset("assets/img/blog/WhatsApp Image 2023-01-02 at 17.58.27.jpeg")}}" height="300" alt="..." /></a>
                             <div class="card-body">
                                 <div class="small text-muted">January 1, 2022</div>
                                 <h2 class="card-title h4">Post Title</h2>
@@ -53,7 +53,7 @@
                     <div class="col-lg-6">
                         <!-- Blog post-->
                         <div class="card mb-4">
-                            <a href="#!"><img class="card-img-top" src="../img/blog/WhatsApp Image 2023-01-02 at 17.58.265.jpeg" height="300" alt="..." /></a>
+                            <a href="#!"><img class="card-img-top" src="{{asset("assets/img/blog/WhatsApp Image 2023-01-02 at 17.58.265.jpeg")}}" height="300" alt="..." /></a>
                             <div class="card-body">
                                 <div class="small text-muted">January 1, 2022</div>
                                 <h2 class="card-title h4">Post Title</h2>
@@ -63,7 +63,7 @@
                         </div>
                         <!-- Blog post-->
                         <div class="card mb-4">
-                            <a href="#!"><img class="card-img-top" src="../img/blog/WhatsApp Image 2023-01-02 at 17.58.27.jpeg" height="300" alt="..." /></a>
+                            <a href="#!"><img class="card-img-top" src="{{asset("assets/img/blog/WhatsApp Image 2023-01-02 at 17.58.27.jpeg")}}" height="300" alt="..." /></a>
                             <div class="card-body">
                                 <div class="small text-muted">January 1, 2022</div>
                                 <h2 class="card-title h4">Post Title</h2>

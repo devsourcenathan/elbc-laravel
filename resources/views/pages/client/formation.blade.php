@@ -32,7 +32,7 @@
         <div class="row">
             <div class="col-md-4 mb-5">
                 <article class="blog-post">
-                    <img src="./img/formation/aze11.jpeg" alt="">
+                    <img src="{{asset("assets/img/formation/aze11.jpeg")}}" alt="">
                     <a href="portfolio-details.html" class="tag">Web Design</a>
                     <div class="content">
                         <small>01 Dec, 2022</small>
@@ -43,7 +43,7 @@
                         @auth
                             <button class="btn btn-primary ms-lg-3">Telecharger</button>
                         @endauth
-                            
+
                     </div>
 
                 </article>
@@ -53,7 +53,7 @@
             </div>
             <div class="col-md-4 mb-5">
                 <article class="blog-post">
-                    <img src="./img/formation/aze12.jpeg" alt="">
+                    <img src="{{asset("assets/img/formation/aze12.jpeg")}}" alt="">
                     <a href="portfolio-details.php" class="tag">Programming</a>
                     <div class="content">
                         <small>01 Dec, 2022</small>
@@ -70,7 +70,7 @@
             </div>
             <div class="col-md-4 mb-5">
                 <article class="blog-post">
-                    <img src="./img/formation/aze17.jpeg" alt="">
+                    <img src="{{asset("assets/img/formation/aze17.jpeg")}}" alt="">
                     <a href="portfolio-details.html" class="tag">Marketing</a>
                     <div class="content">
                         <small>01 Dec, 2022</small>
@@ -84,7 +84,7 @@
         <div class="row">
             <div class="col-md-4 mb-5">
                 <article class="blog-post">
-                    <img src="./img/formation/aze14.jpeg" alt="">
+                    <img src="{{asset("assets/img/formation/aze14.jpeg")}}" alt="">
                     <a href="portfolio-details.html" class="tag">Web Design</a>
                     <div class="content">
                         <small>01 Dec, 2022</small>
@@ -96,7 +96,7 @@
             </div>
             <div class="col-md-4 mb-5">
                 <article class="blog-post">
-                    <img src="./img/formation/aze15.jpeg" alt="">
+                    <img src="{{asset("assets/img/formation/aze15.jpeg")}}" alt="">
                     <a href="portfolio-details.html" class="tag">Programming</a>
                     <div class="content">
                         <small>01 Dec, 2022</small>
@@ -108,7 +108,7 @@
             </div>
             <div class="col-md-4 mb-5">
                 <article class="blog-post">
-                    <img src="./img/formation/aze16.jpeg" alt="">
+                    <img src="{{asset("assets/img/formation/aze16.jpeg")}}" alt="">
                     <a href="portfolio-details.html" class="tag">Marketing</a>
                     <div class="content">
                         <small>01 Dec, 2022</small>

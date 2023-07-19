@@ -22,7 +22,7 @@ class HomeController extends Controller
 
     function donation()
     {
-        return view('pages.client.blog');
+        return view('pages.client.donation');
     }
 
     function formation()

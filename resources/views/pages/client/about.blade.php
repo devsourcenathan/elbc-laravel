@@ -24,14 +24,14 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
-                <img src="../img/apropos/testi2.jpg" alt="" class="img-responsive mb-5">
+                <img src="{{asset("assets/img/apropos/testi2.jpg")}}" alt="" class="img-responsive mb-5">
                 <img src="../pages/$HTTP_RAW_POST_DATA" alt="" class="img-responsive">
             </div>
             <div class="col-lg-6">
                 <div class="row">
                     <div class="col-12">
                         <div class="info-box">
-                            <img src="../img/apropos/icon6.png" alt="" style="margin-top: -70px;">
+                            <img src="{{asset("assets/img/apropos/icon6.png")}}" alt="" style="margin-top: -70px;">
                             <div class="ms-4">
                                 <h5>Description de l'association</h5>
                                 <p>L’association Empower Lives for Better Care est créée à Douala, Région du Littoral, conformément à la loi N°90/053 du 19 décembre 1990, une Association des professionnels de la santé, facilitateurs et animateurs de développement communautaire.
@@ -41,23 +41,24 @@
                     </div>
                     <div class="col-12 mt-4">
                         <div class="info-box">
-                            <img src="../img/apropos/icon4.png" alt="" style="margin-top: -70px;">
+                            <img src="{{asset("assets/img/apropos/icon4.png")}}" alt="" style="margin-top: -70px;">
                             <div class="ms-4">
                                 <h5>Notre expertise</h5>
-                                <p>Association de patients et de soignants
-                                    <br>Communication médiatique et non médiatique (séminaire, colloques, conférences)
+                                <p>
                                     <br>Formation continue / Renforcement des capacités
                                     <br>Système d’information sanitaire
                                     <br>Education thérapeutique du patient
                                     <br>Mobilisation communautaire
                                     <br>Management de projet!
+                                    <br>Devellopement durable
+                                    <br>Protection de l'environement
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 mt-4">
                         <div class="info-box">
-                            <img src="../img/apropos/icon5.png" alt="" style="margin-top: -70px;">
+                            <img src="{{asset("assets/img/apropos/icon5.png")}}" alt="" style="margin-top: -70px;">
                             <div class="ms-4">
                                 <h5>Notre méthodologie d’intervention </h5>
                                 <p>Analyser et planifier les actions de renforcement des compétences, en fonction d'un état des lieux et de la détermination d'objectifs d'amélioration de la qualité.!</p>
@@ -143,7 +144,7 @@
                                 <span class="overlay"></span>
 
                                 <div class="card-image">
-                                    <img src="../img/apropos/images (10).jpg" alt="" class="card-img">
+                                    <img src="{{asset("assets/img/apropos/images (10).jpg")}}" alt="" class="card-img">
                                 </div>
                             </div>
 
@@ -159,7 +160,7 @@
                                 <span class="overlay"></span>
 
                                 <div class="card-image">
-                                    <img src="../img/apropos/testi2.jpg" alt="" class="card-img">
+                                    <img src="{{asset("assets/img/apropos/testi2.jpg")}}" alt="" class="card-img">
                                 </div>
                             </div>
 
@@ -175,7 +176,7 @@
                                 <span class="overlay"></span>
 
                                 <div class="card-image">
-                                    <img src="../img/apropos/testi1.jpeg" alt="" class="card-img">
+                                    <img src="{{asset("assets/img/apropos/testi1.jpeg")}}" alt="" class="card-img">
                                 </div>
                             </div>
 
@@ -191,7 +192,7 @@
                                 <span class="overlay"></span>
 
                                 <div class="card-image">
-                                    <img src="../img/apropos/istockphoto-1146831636-612x612.jpg" alt="" class="card-img">
+                                    <img src="{{asset("assets/img/apropos/istockphoto-1146831636-612x612.jpg")}}" alt="" class="card-img">
                                 </div>
                             </div>
 
@@ -207,7 +208,7 @@
                                 <span class="overlay"></span>
 
                                 <div class="card-image">
-                                    <img src="../img/apropos/images (10).jpg" alt="" class="card-img">
+                                    <img src="{{asset("assets/img/apropos/images (10).jpg")}}" alt="" class="card-img">
                                 </div>
                             </div>
 
@@ -223,7 +224,7 @@
                                 <span class="overlay"></span>
 
                                 <div class="card-image">
-                                    <img src="../img/apropos/istockphoto-936927896-170667a.jpg" alt="" class="card-img">
+                                    <img src="{{asset("asssets/img/apropos/istockphoto-936927896-170667a.jpg")}}" alt="" class="card-img">
                                 </div>
                             </div>
 

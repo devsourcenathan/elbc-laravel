@@ -79,18 +79,17 @@
                 <a href="/donation" class="btn btn-brand ms-lg-3">Faites un don</a>
 
                 @guest
-                <a href="../pages/connexion.php" class="btn btn-primary ms-lg-3">Se Connecter</a>
+                <a href="{{ route('login') }}" class="btn btn-primary ms-lg-3">Se Connecter</a>
                 @endguest
-                    
+
                 @auth
-                <a href="../utils/auth.php?logout" class="btn btn-danger ms-lg-3">Se Deconnecter</a>
+                    <a href="" class="btn btn-danger ms-lg-3">Se Deconnecter</a>
+                        @if (Auth::user()->isAdmin)
+                        <a href="/dashboard" class="btn btn-primary ms-lg-3">Dashboard</a>
+                        @endif
                 @endauth
 
-                @if (Auth::user()->isAdmin)
-                <a href="/dashboard" class="btn btn-primary ms-lg-3">Dashboard</a>
-                @endif
-                <a href="/dashboard" class="btn btn-primary ms-lg-3">Dashboard</a>
-                    
+
             </div>
         </div>
     </nav>

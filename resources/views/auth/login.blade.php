@@ -10,7 +10,7 @@
                     <hr class="hr ms-5" style="width: 100px;">
                 </div>
                 <div class="d-flex mt-5 justify-content-center">
-                    <a href="index.html" class="text-light fw-bold me-3">Accueil</a>
+                    <a href="/" class="text-light fw-bold me-3">Accueil</a>
                 </div>
             </div>
         </div>

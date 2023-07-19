@@ -22,19 +22,20 @@
 <section class="bg-light" id="portfolio" style="padding-top: 10px;">
     <div class="container-fluid">
         <div class="row gy-4">
-            <div class="col-lg-4 col-sm-12 bg-cover" style="background-image: url(./img/site/6.jpg); min-height:300px;">
+            <div class="col-lg-4 col-sm-12 bg-cover" style="background-image: url({{asset("assets/img/site/6.jpg")}}); min-height:300px;">
                 <div>
                 </div>
             </div>
             <div class="col-lg-8">
-                <form class="p-lg-5 col-12 row g-3">
+                <form class="p-lg-5 col-12 row g-3" action="/donation" method="POST">
+                    @csrf
                     <div>
                         <h1>Faites Un Don </h1>
                         <p>Svp veuillez remplir ce formulaire</p>
                     </div>
                     <div class="col-lg-6">
                         <label for="userName" class="form-label">Nom</label>
-                        <input type="text" class="form-control" placeholder="Entrer le nom" id="userName" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" name="last_name" placeholder="Entrer le nom" id="userName" aria-describedby="emailHelp">
                     </div>
                     <div class="col-lg-6">
                         <label for="userName" class="form-label">Prénom</label>
